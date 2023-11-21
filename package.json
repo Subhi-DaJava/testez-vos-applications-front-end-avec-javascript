@@ -9,11 +9,14 @@
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/user-event": "^13.1.9",
     "babel-jest": "^27.0.2",
+    "jasmine": "^5.1.0",
     "jest": "^27.0.3",
-    "jest-html-reporter": "^3.4.1"
+    "jest-html-reporter": "^3.4.1",
+    "nyc": "^15.1.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testCoverage": "nyc jasmine"
   },
   "keywords": [],
   "author": "",
